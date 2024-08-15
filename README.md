@@ -12,10 +12,15 @@
 **二、数据库结构**
 
 ![image](https://github.com/user-attachments/assets/7ffe2bad-5555-4181-aee6-54e644a52e05)
+
 id：序号、自增主键
+
 modelname：识别模型名称
+
 datetime：识别时间
+
 imagedata：图片的存储地址
+
 text：识别结果的内容
 
 **三、系统结构**
