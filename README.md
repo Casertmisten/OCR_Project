@@ -13,16 +13,16 @@ baidu.ocr.secretKey="yours"
 **python后端代码：** https://github.com/Casertmisten/flaskOcr/tree/master
 
 
-**一、前端页面**
+## 一、前端页面
 
-（1）识别页面
+### （1）识别页面
 
 ![image](https://github.com/user-attachments/assets/2f0dda74-e72a-4e1c-b403-f3066fc5f7a6)
-（2）历史记录页面
+### （2）历史记录页面
 
 ![image](https://github.com/user-attachments/assets/b2da063a-05a5-43f2-8a53-1371bbe842df)
 
-**二、数据库结构**
+## 二、数据库结构
 
 ![image](https://github.com/user-attachments/assets/7ffe2bad-5555-4181-aee6-54e644a52e05)
 
@@ -36,7 +36,7 @@ imagedata：图片的存储地址
 
 text：识别结果的内容
 
-**三、系统结构**
+## 三、系统结构
 
 ![image](https://github.com/user-attachments/assets/3e20a332-d5cd-4983-ae1f-1c1a9251a7d8)
 
