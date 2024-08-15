@@ -1,5 +1,8 @@
 **工作流程：** 前端将图片传给java后端，后端将图片保存到本地，然后把图片的Base64编码传给识别模型（使用百度OCR识别API和用falsk框架搭建的python自建模型），最后将图片的本地保存路径和识别结果保存到数据库，供前端调用展示
 
+**python后端代码：** https://github.com/Casertmisten/flaskOcr/tree/master
+
+
 **一、前端页面**
 
 （1）识别页面
