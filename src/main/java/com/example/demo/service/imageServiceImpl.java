@@ -55,6 +55,7 @@ public class imageServiceImpl implements imageService{
         System.out.println("<-------------->");
         System.out.println("Image upload ok!");
         System.out.println("<-------------->");
+        System.out.println(" ");
 
         String contentType = file.getContentType();
         String[] parts = null;//格式为：image/png
@@ -64,6 +65,7 @@ public class imageServiceImpl implements imageService{
             System.out.println("<-------------->");
             System.out.println("Parts is null!");
             System.out.println("<-------------->");
+            System.out.println(" ");
         }
         String fileExtension = null;//文件后缀
         if (parts != null) {
@@ -72,6 +74,7 @@ public class imageServiceImpl implements imageService{
             System.out.println("<-------------->");
             System.out.println("Parts is null!");
             System.out.println("<-------------->");
+            System.out.println(" ");
         }
         // 保存图片到本地
         Path path = Paths.get("D:/code/java/demo/src/main/resources/static/ocrImg");
