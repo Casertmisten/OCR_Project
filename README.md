@@ -1,8 +1,11 @@
 **PS：** 使用前请修改application.properties 里面的百度OCR配置
 
 # baidu_ocr_config
+
 baidu.ocr.appid="yours"
+
 baidu.ocr.apiKey="yours"
+
 baidu.ocr.secretKey="yours"
 
 
