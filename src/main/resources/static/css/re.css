@@ -1,0 +1,116 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* 顶部 */
+.header {
+  display: flex;
+  padding: 0 1.563vw;
+  width: 100vw;
+  height: 3.385vw;
+  align-items: center;
+  background-color: #fff;
+}
+.header img {
+  width: 30px;
+  height: 30px;
+}
+.header span {
+  margin-left: .26vw;
+  font-size: 1.042vw;
+}
+/* 功能部分 */
+.main {
+  display: flex;
+  flex: 1;
+  width: 100vw;
+}
+.main .left {
+  width: 10%;
+  background-color: #fff;
+}
+.main .left .logs {
+  width: 100%;
+  height: 3vw;
+  line-height: 3vw;
+  text-align: center;
+  background-color: #bdd7ee;
+}
+.main .left .logs span {
+  font-weight: bold;
+  color: #2e75b6;
+}
+.main .right {
+  width: 90%;
+  height: 100%;
+  overflow-y: scroll;
+}
+.right .table {
+  width: 100%;
+  height: auto;
+}
+table
+{
+    border-collapse:collapse;
+}
+table, th, td
+{
+  border: 1px solid black;
+}
+.table .thead {
+  width: 100%;
+  height: 3vw;
+  text-align: center;
+  line-height: 3vw;
+}
+.table td {
+  position: relative;
+  text-align: center;
+}
+.table tbody tr {
+  width: 100%;
+  height: 10vw;
+}
+.table tbody tr:nth-child(2n-1){
+  background-color: #fff;
+}
+.table tbody td:nth-child(1) {
+  width: 5%;
+}
+.table tbody tr td:nth-child(2){
+  width: 40%;
+}
+.table tbody tr td:nth-child(3){
+  width: 30%;
+}
+.table tbody tr td:nth-child(4){
+  width: 15%;
+}
+.table tbody tr td:nth-child(5){
+  width: 10%;
+}
+
+
+
+
+.image-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* 将 image-container 移动到 td 的中心 */
+  width: 470px; /* 或者指定一个宽度 */
+  height: 130px; /* 或者指定一个高度 */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container img {
+  max-width: 100%; /* 图片的最大宽度为容器宽度 */
+  max-height: 100%; /* 图片的最大高度为容器高度 */
+  object-fit: contain; /* 保持图片的比例 */
+}
